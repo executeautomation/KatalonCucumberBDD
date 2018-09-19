@@ -1,0 +1,102 @@
+[
+  {
+    "line": 22,
+    "elements": [
+      {
+        "line": 26,
+        "name": "Test the login functionality of EA application",
+        "description": "",
+        "id": "login;test-the-login-functionality-of-ea-application",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3215267471,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I navigate to the login page",
+            "match": {
+              "location": "LoginSteps.I_navigate_to_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 318190591,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter the following for Login",
+            "match": {
+              "location": "LoginSteps.I_enter_the_following_for_login(User\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "admin",
+                  "adminpassword"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 319892582,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click the login button",
+            "match": {
+              "location": "LoginSteps.I_Click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 527064,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should see the home page",
+            "match": {
+              "location": "LoginSteps.I_Should_see_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loginFeature"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "  Test the login functionality of the application",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "Include/features/Login.feature",
+    "tags": [
+      {
+        "name": "@loginFeature",
+        "type": "Tag",
+        "location": {
+          "line": 21,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
